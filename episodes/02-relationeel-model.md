@@ -59,6 +59,21 @@ In dit geval is een glasobject gekoppeld aan een bepaald gebouw in de `gebouwen`
 
 Dit is precies hoe data in een **relationele database** is georganiseerd. 
 
+::: callout
+## Technische termen
+We hebben nu stiekem al een aantal concepten in database-land geleerd. 
+Dit zijn de technische termen die daarbij horen: 
+
+- **Primary key**: Een *primary key* (primaire sleutel) is een attribuut of combinatie van attributen die 
+een unieke verwijzing naar een bepaalde rij is. In het voorbeeld is dit de unieke identificatiecode (UID) in de 2 tabellen:
+`gebouwid` in de `gebouwen` tabel en `objectid` in de `glasobjecten` tabel.
+- **Foreign key**: De *foreign key* (vreemde sleutel) is een attribuut of combinatie van attributen die een unieke verwijzing
+naar een bepaalde rij **in een andere tabel** is. De *foreign key* komt dus overeen met de primary key van die tabel.
+In het voorbeeld is dit `gebouwid` in de `glasobjecten` tabel die refereert naar een specifieke rij in de `gebouwen` tabel.
+- **One-to-Many relatie**: Één rij in een tabel is gelinkt aan meerdere rijen in een andere tabel. Voorbeeld: 1 gebouw bevat meerdere glasobjecten.
+Naast *One-to-Many* relaties bestaan er meerdere *cardinality* (kardinaliteit) types, zoals One-to-One, Many-to-many.
+:::
+
 ::: challenge
 ## Beperkingen van het relationele model
 Bekijk het bestand `historisch-glas-in-gebouwen_plat.xlsx`.
@@ -73,6 +88,7 @@ Bekijk nu het bestand `historisch-glas-in-gebouwen_relationeel-model.xlsx`.
 2. Je wilt alle glasobjecten analyseren die zich in een gebouw van architect Pierre Cuypers bevinden.
    (Ga even uit van een grotere dataset met meerdere gebouwen die door deze architect zijn ontworpen).
 Beschrijf de stappen die je moet doorlopen om de juiste data te filteren. (Je hoeft het niet echt te doen)
+
 :::: solution
 1. Je kunt de `architect` kolom filteren op de waarde `Pierre Cuypers`.
 2. Stap 1: Filter de gebouwen met `Pierre Cuypers` als waarde in de kolom `architect`. 
@@ -86,6 +102,8 @@ Stap 2: Gebruik de `gebouwid` van deze gebouwen om de glasobjecten te filteren.
 2. Wat zijn nadelen van het relationele model?
 
 :::: solution
+. <!--- Nodig voor juiste rendering --->
+
 ### Voordelen van het relationele model
 - Je breekt informatie op in logische *units*, hoe meer data hoe belangrijker dit is om het overzicht te behouden.
 - Gegevens aanpassen is minder foutgevoelig (zoals in het voorbeeld hoef je het adres van de Sint Petrus maar één keer aan te passen).
