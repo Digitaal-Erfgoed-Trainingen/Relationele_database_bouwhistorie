@@ -6,34 +6,37 @@ exercises: 2 # exercise time in minutes
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- Hoe leer ik meer over databases?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- De volgende stappen kennen om te leren over databases
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## Hoe verder?
+OK, je bent overtuigd dat je meer wilt gaan doen met databases. Waar begin je?
+In dit hoofdstuk maken we je wegwijs.
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.html) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+Grofweg zijn er 2 richtingen:
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+### Richting 1: Microsoft access: makkelijk te leren, minder flexibel en krachtig
+Als je gewend bent om met Microsoft producten te werken ligt Microsoft Access voor de hand.
+Microsoft Access is een gebruiksvriendelijk Database Management System (DBMS) gericht op point-and-click gebruik.
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+
+### Richting 2: Meer technische databases
+Meer technische databases, SQL leren.
+- Basis + Core concepts: https://www.geeksforgeeks.org/dbms/getting-started-with-database-management-system/
+- SQL leren
+
+Resources: 
+- https://www.coursera.org/learn/introduction-to-databases?adpostion=&hide_mobile_promo=&utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_x_multi_ftcof_career-academy_cx_dr_bau_gg_pmax_gc_s1_en_m_hyb_23-12_x&campaignid=20858198824&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&creativeid=&assetgroupid=6490027433&targetid=&extensionid=&placement=&gad_source=1&gad_campaignid=20854471652&gclid=Cj0KCQiAwdDXBhDuARIsAFdLukm7CvFJfxNjmBZ7Kc1PU0Vsu85sQZZ2mUHMsiyEBLwDcA_o-kR3w_YaArdxEALw_wcB
+
+
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
