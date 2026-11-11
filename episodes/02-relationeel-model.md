@@ -26,6 +26,7 @@ vervolgens kun je de vragen bij 'Beperkingen van het relationele model' en 'Wat 
 klassikaal stellen.
 :::
 
+FIXME link naar downloadinstructies datasets
 
 ::: challenge
 ## Beperkingen van spreadsheets
