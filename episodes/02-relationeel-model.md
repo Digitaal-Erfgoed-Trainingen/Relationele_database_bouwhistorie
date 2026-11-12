@@ -31,19 +31,22 @@ FIXME link naar downloadinstructies datasets
 ::: challenge
 ## Beperkingen van spreadsheets
 Bekijk het bestand `historisch-glas-in-gebouwen_plat.xlsx`.
-Merk op dat kolom V t/m Y informatie bevat over de gebouwen waar de glasobjecten zich in bevinden.
 
-1. Je wilt het adres aanpassen van het gebouw Sint Petrus (Uden). Hoeveel rijen moet je aanpassen?
+1. Je wilt het adres aanpassen van het gebouw Jachthuis Sint Hubertus. Hoeveel rijen moet je aanpassen?
 
-Bekijk nu het bestand `historisch-glas-in-gebouwen_relationeel-model.xlsx`.
+Bekijk nu het bestand `historisch-glas-in-gebouwen_relationeel.xlsx`.
 
-2. Je wilt het adres aanpassen van het gebouw Sint Petrus (Uden). Hoeveel rijen moet je aanpassen?
+2. Je wilt het adres aanpassen van het gebouw Jachthuis Sint Hubertus. Hoeveel rijen moet je aanpassen?
+3. Stel dat je per gebouw tientallen glasobjecten in de dataset hebt. 
+En dat je vaak informatie over gebouwen moet aanpassen, naar welk format gaat je voorkeur uit? 
 
 :::: solution
 ## Oplossing
 
-1. 33 rijen
+1. 3 rijen
 2. 1 rij
+3. Het format in `historisch-glas-in-gebouwen_relationeel.xlsx` is dan beter. Je hoeft dan telkens maar 1 rij aan te passen 
+in plaats van tientallen rijen. Dit is een stuk minder foutgevoelig.
 ::::
 :::
 
@@ -77,21 +80,18 @@ Naast *One-to-Many* relaties bestaan er meerdere *cardinality* (kardinaliteit) t
 ::: challenge
 ## Beperkingen van het relationele model
 Bekijk het bestand `historisch-glas-in-gebouwen_plat.xlsx`.
-Merk op dat kolom V t/m Y informatie bevat over de gebouwen waar de glasobjecten zich in bevinden.
 
-1. Je wilt alle glasobjecten analyseren die zich in een gebouw van architect Pierre Cuypers bevinden.
-   (Ga even uit van een grotere dataset met meerdere gebouwen die door deze architect zijn ontworpen).
+1. Je wilt alle glasobjecten analyseren die zich in gebouwen in Zuid-Holland bevinden.
 Beschrijf de stappen die je moet doorlopen om de juiste data te filteren. (Je hoeft het niet echt te doen)
 
 Bekijk nu het bestand `historisch-glas-in-gebouwen_relationeel-model.xlsx`.
 
-2. Je wilt alle glasobjecten analyseren die zich in een gebouw van architect Pierre Cuypers bevinden.
-   (Ga even uit van een grotere dataset met meerdere gebouwen die door deze architect zijn ontworpen).
+2. Je wilt alle glasobjecten analyseren die zich in gebouwen in Zuid-Holland bevinden.
 Beschrijf de stappen die je moet doorlopen om de juiste data te filteren. (Je hoeft het niet echt te doen)
 
 :::: solution
-1. Je kunt de `architect` kolom filteren op de waarde `Pierre Cuypers`.
-2. Stap 1: Filter de gebouwen met `Pierre Cuypers` als waarde in de kolom `architect`. 
+1. Je kunt de `Provincie` kolom filteren op de waarde `Zuid-Holland`.
+2. Stap 1: Filter de gebouwen met `Zuid-Holland` als waarde in de kolom `Provincie`. 
 Stap 2: Gebruik de `gebouwid` van deze gebouwen om de glasobjecten te filteren.
 ::::
 :::
@@ -106,7 +106,7 @@ Stap 2: Gebruik de `gebouwid` van deze gebouwen om de glasobjecten te filteren.
 
 ### Voordelen van het relationele model
 - Je breekt informatie op in logische *units*, hoe meer data hoe belangrijker dit is om het overzicht te behouden.
-- Gegevens aanpassen is minder foutgevoelig (zoals in het voorbeeld hoef je het adres van de Sint Petrus maar één keer aan te passen).
+- Gegevens aanpassen is minder foutgevoelig.
 - Bij een grote dataset (>10.000 *records*) wordt het al gauw ondoenbaar om nog in spreadsheet software te werken. 
 Met een relationele database werkt het nog steeds supersnel.
 
