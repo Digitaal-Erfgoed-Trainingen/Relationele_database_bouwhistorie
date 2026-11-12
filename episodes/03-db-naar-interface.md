@@ -28,17 +28,17 @@ gebaseerd op de `historisch glas in gebouwen` dataset van het vorige hoofdstuk.
 ::: challenge
 Bekijk https://digitaal-erfgoed-trainingen.github.io/Relational_database_demo/.
 
-1. Hoeveel glasobjecten zijn er van na 1950?
-2. Hoe zie je de relatie tussen gebouwen en glasobjecten in deze interface?
-3. Bekijk [de pagina over Sint Petrus (Uden)](https://digitaal-erfgoed-trainingen.github.io/Relational_database_demo/#gebouw/A0005)
+1. Hoeveel glasobjecten zijn er in de kleur amber?
+2. Hoe zie je de relatie tussen gebouwen en glasobjecten terug in deze interface?
+3. Bekijk [de pagina over Jachthuis Sint Hubertus](https://digitaal-erfgoed-trainingen.github.io/Relational_database_demo/#/gebouw/9)
 Beschrijf in je eigen woorden hoe er in de database wordt gezocht om het overzicht van gekoppelde glasobjecten te verkrijgen.
 
 
 :::: solution
-1. 25 glasobjecten (je kunt in de glasobjecten view filteren op `Ontstaan vanaf jaar`, klik daarvoor op `Meer filters`).
+1. 2 glasobjecten (je kunt in de glasobjecten view filteren op `KLEUR`).
 2. In de gebouwen view zie je hoeveel glasobjecten er in een gebouw zitten. Bij de view van een enkel gebouw zie je alle glasobjecten die eronder vallen. 
 Bij de view van een enkel glasobject zie je alle glasobjecten die in hetzelfde gebouw zitten.
-3. Op basis van het `gebouwid` `A0005` wordt in de `glasobjecten` tabel alle rijen gezocht met `A0005` als waarde voor `gebouwid`.
+3. Op basis van het `gebouwid` `9` wordt in de `glasobjecten` tabel alle rijen gezocht met `9` als waarde voor `gebouwid`.
 ::::
 :::
 
