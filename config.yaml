@@ -18,30 +18,32 @@ carpentry: 'incubator'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Relationeel model en database-gebruik voor bouwhistorie data'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2026-11-10
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'data, lesson, nederlands, relationeel model, database, curtureel erfgoed, The Carpentries, Rijksdienst voor Curtureel Erfgoed'
 
 # Life cycle stage of the lesson
 # refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
 # possible values: pre-alpha, alpha, beta, stable, retired
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/Digitaal-Erfgoed-Trainingen/Relationele_database_bouwhistorie'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'm.dekleijn@cultureelerfgoed.nl'
+
+lang: 'nl'
 
 # Navigation ------------------------------------------------
 #
@@ -67,7 +69,6 @@ contact: 'team@carpentries.org' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
 
 # Information for Learners
 learners: 
