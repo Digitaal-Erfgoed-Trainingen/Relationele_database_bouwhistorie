@@ -1,7 +1,7 @@
 ---
-title: "Using Markdown"
+title: "Hoe verder?"
 teaching: 10 # teaching time in minutes
-exercises: 2 # exercise time in minutes
+exercises: 0 # exercise time in minutes
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -16,102 +16,56 @@ exercises: 2 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Hoe verder?
 OK, je bent overtuigd dat je meer wilt gaan doen met databases. Waar begin je?
 In dit hoofdstuk maken we je wegwijs.
 
 Grofweg zijn er 2 richtingen:
 
-### Richting 1: Microsoft access: makkelijk te leren, minder flexibel en krachtig
+## Richting 1: Microsoft Access: makkelijk te leren, minder flexibel en krachtig
 Als je gewend bent om met Microsoft producten te werken ligt Microsoft Access voor de hand.
-Microsoft Access is een gebruiksvriendelijk Database Management System (DBMS) gericht op point-and-click gebruik.
+[Microsoft Access](https://www.microsoft.com/en-us/microsoft-365/access) is een gebruiksvriendelijk Database Management System (DBMS) gericht op point-and-click gebruik.
 
+Start met [een Microsoft 365 abonnement voor Access](https://www.microsoft.com/en-us/microsoft-365/access) en [de support pagina van Microsoft](https://support.microsoft.com/en-us/access/).
+### Voordelen
+- Gebruiksvriendelijk
+- Je hoeft niet veel technische details te weten, Access neemt je aan de hand
+- Access heeft ingebouwde formulieren die het toevoegen en aanpassen van data heel makkelijk maken
 
-### Richting 2: Meer technische databases
-Meer technische databases, SQL leren.
-- Basis + Core concepts: https://www.geeksforgeeks.org/dbms/getting-started-with-database-management-system/
-- SQL leren
+### Nadelen
+- Je zit vast aan een betaald Microsoft product. Een goed open-source alternatief is Libreoffice Base.
+- Verschillende versies van Access zijn niet altijd compatibel met elkaar
+- Andere meer technische oplossingen zijn uiteindelijk krachtiger en flexibeler.
+- Draait alleen op Windows. Een goed platform-independent alternatief is Libreoffice Base.
 
-Resources: 
-- https://www.coursera.org/learn/introduction-to-databases?adpostion=&hide_mobile_promo=&utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_x_multi_ftcof_career-academy_cx_dr_bau_gg_pmax_gc_s1_en_m_hyb_23-12_x&campaignid=20858198824&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&creativeid=&assetgroupid=6490027433&targetid=&extensionid=&placement=&gad_source=1&gad_campaignid=20854471652&gclid=Cj0KCQiAwdDXBhDuARIsAFdLukm7CvFJfxNjmBZ7Kc1PU0Vsu85sQZZ2mUHMsiyEBLwDcA_o-kR3w_YaArdxEALw_wcB
+## Richting 2: Meer technische databases
+Dit is de langere leerweg, maar met uiteindelijk meer begrip, flexibiliteit en krachtigere databases.
 
+Dit raden we je aan:
+1. Volg een introductie in databases cursus, zoals:
+   - [Introducing Databases and SQL van de Carpentries](https://datacarpentry.github.io/sql-ecology-lesson/)
+   - [Coursera's Introduction to Databases](https://www.coursera.org/learn/introduction-to-databases)
+2. Je eigen data in een database zetten en ermee spelen. Om te beginnen raden we je aan om 
+een simpele en veel-gebruikte database engine te gebruiken in combinatie met een user interface.
+   - [SQLite](https://sqlite.org) (onderliggende engine) in combinatie met [DB Browser](https://sqlitebrowser.org/)
+   - Iets professioneler en krachtiger: [PostgresSQL](https://www.postgresql.org) (onderliggende engine) 
+     in combinatie met [pgAdmin](https://www.pgadmin.org) (user interface).
 
+### Voordelen
+- Je krijgt een goed algemeen begrip van hoe databases werken.
+Daardoor zit je niet vast aan een bepaalde database-technologie. Afhankelijk van je toepassing kun je makkelijk switchen tussen verschillende technologieën.
+- Er zijn genoeg krachtige, professionele gratis en open-source oplossingen.
 
+### Nadelen
+- Minder gebruiksvriendelijk, vooral als je nog weinig technische vaardigheden hebt.
+- Stijlere leercurve
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
+::: callout
+## Keep it Simple Stupid
+Misschien is een spreadsheet voor jouw toepassing meer dan genoeg. Houd het dan vooral simpel!
+:::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Er zijn meerdere manieren om te leren over databases, kies een richting die het beste bij de toepassing past
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
