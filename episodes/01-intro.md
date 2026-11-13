@@ -13,6 +13,19 @@ exercises: 2 # exercise time in minutes
 - Het kunnen beschrijven van benodigde basiskennis over het gebruik van databases.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::  challenge
+
+## Icebreaker
+Kies een online kennisdatabase. Bij voorkeur iets waar je blij van wordt om op rond te struinen.
+Denk aan IMDB, Goodreads, Bulbapedia (voor pokémon), BoardGameGeek, Wookieepedia (voor Star Wars).
+
+Teken op een vel papier hoe de database er denk je uit ziet. Welke tabellen zijn er en wat voor data staat erin? 
+Welke data zijn aan elkaar gekoppeld?
+Het hoeft niet heel compleet te zijn. Begin gewoon ergens.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 ## Leerdoelen
 
 Deze module laat je de meerwaarde zien van het gebruik van een relationeel model en laat je proeven aan de kracht van database-gebruik.
@@ -35,18 +48,11 @@ Dit inzicht kun je in relatief korte tijd leren, terwijl het onder de knie krijg
 specifieke database vaardigheden een stuk langer kost en pas interessant wordt als je daar daadwerkelijk mee aan de slag wilt gaan.
 
 
-:::::::::::::::::::::::::::::::::::::::::  challenge
-
-## Bonnetje icebreaker
-FIXME
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 :::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Discussie: waarom zou je een database gebruiken?
 - Ken je een project waar een database wordt gebruikt?
-- Ken je een project waar data eerst een spreadsheet stond en daarna in een database?
+- Ken je een project waar data eerst in een spreadsheet stond en daarna in een database?
 - Wat is de meerwaarde van een database in deze gevallen?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
