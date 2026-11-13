@@ -49,3 +49,6 @@ docs/
 # translation temp files
 po/*~
 
+.idea
+.DS_Store
+*/.DS_Store
