@@ -18,7 +18,7 @@ exercises: 10 # exercise time in minutes
 
 We hebben tot nu toe gezien hoe je je data kunt structureren volgens een relationeel model en 
 wat de voordelen zijn van een database. 
-Het is tijd om nu te zien hoe dit er dan voor de eindgebruiker uit kan komen te zien en hoe dit zich verhoudt tot de onderliggende data structuur.
+Het is tijd om nu te zien hoe dit er dan voor de eindgebruiker uit kan komen te zien en hoe dit zich verhoudt tot de onderliggende datastructuur.
 
 In dit hoofdstuk bekijken we deze gebruikersinterface
 https://digitaal-erfgoed-trainingen.github.io/Relational_database_demo/. 
