@@ -12,7 +12,7 @@ exercises: 10 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Beschrijven hoe een databasestructuur zich vertaald naar een gebruikersinterface
+- Beschrijven hoe een databasestructuur zich vertaalt naar een gebruikersinterface
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
