@@ -54,7 +54,7 @@ lang: 'nl'
 # Example -------------
 #
 # episodes:
-# - introduction.md
+# - 01-intro.md
 # - first-steps.md
 #
 # learners:
