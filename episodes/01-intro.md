@@ -42,7 +42,7 @@ Na afloop van deze module kan de deelnemer:
 De module is echt bedoeld als **inzicht geven in** het relationele model en gebruik van databases,
 **specifiek niet het aanleren van vaardigheden om met databases om te gaan**.
 In het laatste hoofdstuk geven we de volgende stappen aan om die vaardigheden echt te leren.
-Het idee van deze aanpak is dat het nuttig is wanneer je data verzameld in een spreadsheet om alvast een beeld te hebben 
+Het idee van deze aanpak is dat het nuttig is wanneer je data verzamelt in een spreadsheet om alvast een beeld te hebben 
 van hoe de data uiteindelijk terecht kan komen in een database.
 Dit inzicht kun je in relatief korte tijd leren, terwijl het onder de knie krijgen van 
 specifieke database vaardigheden een stuk langer kost en pas interessant wordt als je daar daadwerkelijk mee aan de slag wilt gaan.
