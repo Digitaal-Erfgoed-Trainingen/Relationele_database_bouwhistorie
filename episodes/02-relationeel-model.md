@@ -26,7 +26,8 @@ vervolgens kun je de vragen bij 'Beperkingen van het relationele model' en 'Wat 
 klassikaal stellen.
 :::
 
-FIXME link naar downloadinstructies datasets
+Voor dit hoofdstuk heb je hebt de bestanden `historisch-glas-in-gebouwen_plat.xlsx` en `historisch-glas-in-gebouwen_relationeel.xlsx` nodig.
+[Volg hier de downloadinstructies](learners/setup.md#glas-in-gebouwen-dataset).
 
 ::: challenge
 ## Beperkingen van spreadsheets
