@@ -13,16 +13,33 @@ exercises: 2 # exercise time in minutes
 - Het kunnen beschrijven van benodigde basiskennis over het gebruik van databases.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+Databases zijn overal. Een register van archeologische vondsten gelinkt aan een opgraving of een bonnetje bij de supermarkt met gekochtte producten. In de basis bestaan veel databases uit tabellen die aan elkaar gekoppeld zijn. Linkjes tussen deze databases kunnen makkelijk worden gelegd. 
+
 :::::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Icebreaker
-Kies een online kennisdatabase. Bij voorkeur iets waar je blij van wordt om op rond te struinen.
-Denk aan IMDB, Goodreads, Bulbapedia (voor pokémon), BoardGameGeek, Wookieepedia (voor Star Wars).
+**Ontwerp een database op basis van een kassabon**
 
-Teken op een vel papier hoe de database er denk je uit ziet. Welke tabellen zijn er en wat voor data staat erin? 
-Welke data zijn aan elkaar gekoppeld?
-Het hoeft niet heel compleet te zijn. Begin gewoon ergens.
+Neem tien minuten de tijd om een eenvoudig databaseschema te ontwerpen op basis van een kassabon van een supermarktbezoek. Maak bijvoorbeeld een onderscheid tussen supermarkten, kassabonnen (met een uniek identificatienummer), producten, producenten en distributeurs. Kun je nog andere relevante tabellen bedenken voor je databaseontwerp? Probeer daarnaast de gekochte producten onder te verdelen in verschillende categorieën. Teken op een vel papier hoe de database er denk je uit ziet. 
 
+- Welke tabellen zijn er en wat voor data staat erin? 
+- Welke data zijn aan elkaar gekoppeld?
+
+Teken blokjes met tabellen en trek lijntjes tussen velden die aan elkaar gelinkt zijn. Schrijf op deze lijntjes hoe ze gelinkt zijn. Het hoeft niet heel compleet te zijn. Begin gewoon ergens.
+
+Vergelijk vervolgens jouw databaseontwerp met dat van je buurman of buurvrouw. Bespreek de overeenkomsten en verschillen tussen jullie ontwerpen en de keuzes die jullie hebben gemaakt.
+
+Welke uitdagingen en problemen zouden zich kunnen voordoen wanneer jullie de gegevens uit beide databases willen samenbrengen tot één gezamenlijke database?
+::::::::::::::::::::::::::::::::::::::::::::::::::
+:::: solution
+
+**Belangrijkste inzichten**:
+
+- Verschillende typen relaties tussen tabellen: er is niet noodzakelijk één juiste oplossing.
+- Verschillen in de gekozen velden (attributen).
+- Verschillen in taal en terminologie.
+- Verschillen in valuta en eenheden.
+- Verschillen in focus en afbakening: sommige ontwerpen richten zich uitsluitend op de supermarkt, terwijl andere de gehele toeleveringsketen in kaart brengen.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
